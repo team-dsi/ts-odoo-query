@@ -1,0 +1,43 @@
+{
+  "name": "@team-dsi/odoo-rest",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@8.8.0",
+  "description": "A universal rest client for Odoo",
+  "author": "Nathan GUILLET",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-dsi/ts-odoo-query.git"
+  },
+  "bugs": {
+    "url": "https://github.com/team-dsi/ts-odoo-query/issues"
+  },
+  "keywords": [
+    "odoo",
+    "typescriot",
+    "odoo ts",
+    "jwt"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "*.d.ts",
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2",
+    "unbuild": "^2.0.0"
+  }
+}
