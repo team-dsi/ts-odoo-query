@@ -1,8 +1,8 @@
 {
   "name": "vue3",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -12,6 +12,7 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@team-dsi/odoo-rest": "workspace:^",
     "@vitejs/plugin-vue": "^4.2.3",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
