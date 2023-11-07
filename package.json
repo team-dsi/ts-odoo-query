@@ -7,6 +7,8 @@
   "author": "Nathan GUILLET",
   "keywords": [],
   "scripts": {
+    "build": "cd packages/odoo-rest && pnpm run build",
+    "play:vue": "cd playground/vue3 && pnpm run dev",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
